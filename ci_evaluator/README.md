@@ -2,13 +2,19 @@
 
 ## Project contributors
 It is a group project done by:
+
 @olga-kondr
+
 @yuanqian-usf
+
 @mycarreno
+
 @gcappellani
 
 ## Group mentors
+
 @mkbhanda
+
 @annajung
 
 
