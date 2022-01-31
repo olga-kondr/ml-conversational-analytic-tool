@@ -1,0 +1,606 @@
+Index,Repo_Name,Organization_Name,PR_Number,PR_Title,PR_Head,User,PR_Labels,URL,PR_State,PR_Body,PR_Additions,PR_Deletions,PR_Comments_Num,PR_Commits_Num,PR_Created_At,PR_Closed_At,PR_Merged,PR_Merged_At,PR_Merged_By,PR_Review_Comments_Num,PR_Updated_At,Review_Comment,Comment_Created_At,Comment_User,Comment_Updated_At,Comment,Inclusiveness_Scale_1_to_10,Inclusiveness_5_Categories,Inclusiveness_2_Categories,Constructiveness_Scale_1_to_10,Constructiveness_5_Categories,Constructiveness_2_Categories
+1,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,FALSE,2020-05-19 14:52:55,Jáchym Toušek,2020-05-19 14:52:55,My changes somehow broke `PosixSemaphoreTest`. I'm not sure what's wrong.,5,somewhat not inclusive,not inclusive,8,somewhat constructive,constructive
+2,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 10:19:54,Niklas Keller,2020-05-19 14:56:22,Needs to keep `|null` here as well.,2,not inclusive,not inclusive,4,somewhat not constructive,constructive
+3,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 10:21:35,Niklas Keller,2020-05-19 14:56:22,"If the previous release failed, this should probably not return `new Success;`. This is the kind of problems you run into once you return a promise. :P",8,somewhat inclusive,inclusive,9,somewhat constructive,constructive
+4,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 10:22:53,Niklas Keller,2020-05-19 14:56:22,I think we can keep the exception non-final.,7,somewhat inclusive,inclusive,5,somewhat not constructive,constructive
+5,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 10:23:28,Niklas Keller,2020-05-19 14:56:22,I'm not sure whether we want to directly remove it. @trowski?,5,somewhat not inclusive,not inclusive,8,somewhat constructive,constructive
+6,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 14:17:23,Aaron Piotrowski,2020-05-19 14:56:22,I've found the `$id` property to be completely pointless.,10,inclusive,inclusive,8,somewhat constructive,constructive
+7,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 14:18:41,Aaron Piotrowski,2020-05-19 14:56:22,@enumag The promise from `$this->releaser` can be stored and returned here instead. We might want to remove passing `$this` to the function to avoid a circular reference.,7,neutral,inclusive,10,constructive,constructive
+8,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 14:21:50,Aaron Piotrowski,2020-05-19 14:56:22,"I'm not sure there's a lot of usage of `pthreads` anymore, so dropping support is probably fine.",5,somewhat not inclusive,not inclusive,8,somewhat constructive,constructive
+9,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 14:55:30,Niklas Keller,2020-05-19 14:56:22,It's used here: https://github.com/amphp/sync/blob/b33f8b7e3b463cd864ed75f4759ad5d74436e632/src/SemaphoreMutex.php#L27,8,somewhat inclusive,inclusive,10,constructive,constructive
+10,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-02 15:04:02,Aaron Piotrowski,2020-05-19 14:56:22,I suppose that's helpful. I've otherwise never needed to use the ID.,8,somewhat inclusive,inclusive,8,somewhat constructive,constructive
+11,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 07:15:09,Jáchym Toušek,2020-05-19 14:56:22,All the semaphores seems to use it to some extent. For instance https://github.com/amphp/sync/blob/b33f8b7e3b463cd864ed75f4759ad5d74436e632/src/LocalSemaphore.php#L30-L51,10,inclusive,inclusive,10,constructive,constructive
+12,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 07:24:13,Jáchym Toušek,2020-05-19 14:56:22,Should the releaser be required to return a Promise?,10,inclusive,inclusive,8,somewhat constructive,constructive
+13,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 11:48:00,Niklas Keller,2020-05-19 14:56:22,"Not sure, we could also use `Amp\call` on it to automatically run as coroutine if it returns a generator.",8,somewhat inclusive,inclusive,8,somewhat constructive,constructive
+14,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 13:50:09,Jáchym Toušek,2020-05-19 14:56:22,"Nah, I'd avoid using call. I think the API should be more strict than that. I'm asking only because allowing void as well (which call wouldn't solve btw.) would be more BC friendly since that's how the releasers work now. Personally I'd simply force a Promise though.",8,somewhat inclusive,inclusive,10,constructive,constructive
+15,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 14:59:16,Aaron Piotrowski,2020-05-19 14:56:22,We use `Amp\call` on most other callbacks. It would seem unusual not to do so here as well IMO.,5,somewhat not inclusive,inclusive,5,somewhat not constructive,constructive
+16,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 15:04:09,Aaron Piotrowski,2020-05-19 14:56:22,"I guess my main point is that I've never used the ID from the consumer side of `Lock`. Here it's just an implementation detail in `LocalSemaphore`. So I guess it's not ""pointless,"" but I haven't found it particularly useful except in the case @kelunik pointed out. Turns out we do use it, so never mind, leave it as-is.",10,inclusive,inclusive,10,constructive,constructive
+17,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 15:33:42,Jáchym Toušek,2020-05-19 14:56:22,I see. Okay then.,8,somewhat inclusive,inclusive,5,somewhat not constructive,constructive
+18,sync,amphp,14,Next major,"PullRequestPart(sha=""10b86082474e297d06d818f50bdf823a3cb74bf3"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/14,open,"Just wanted to make a PR with things that can be considered for the next major release (whenever you decide to make it). I won't keep this up-to-date with conflicts unless you explicitly ask me to rebase it.
+
+- https://github.com/amphp/file/pull/43#discussion_r418936134
+- https://github.com/amphp/sync/issues/12
+- Removed deprecated ext-pthreads support.
+
+EDIT: Somehow it's causing a segfault on travis lol.",43,263,1,8,2020-05-02 09:55:36,,FALSE,,,17,2020-05-19 14:56:22,TRUE,2020-05-03 15:36:17,Jáchym Toušek,2020-05-19 14:56:22,"@trowski It's hidden from the user anyway... The user never actually creates a lock, he just gets an instance from a mutex or semaphore so he doesn't need to care about the id in __construct at all..",10,inclusive,inclusive,10,constructive,constructive
+19,sync,amphp,1,More semaphore tests,"PullRequestPart(sha=""60132a563a5d857ee62b2f945a8348e44b164f60"")","Chun-Sheng, Li",[],https://api.github.com/repos/amphp/sync/pulls/1,closed,"# Changed log
+
+- add more releated semaphore tests.",61,0,1,5,2018-03-11 21:53:45,2018-04-26 19:07:09,TRUE,2018-04-26 19:07:09,Niklas Keller,2,2018-04-26 19:07:13,FALSE,2018-04-26 19:07:13,Niklas Keller,2018-04-26 19:07:13,Thanks!,10,inclusive,inclusive,10,constructive,constructive
+20,sync,amphp,1,More semaphore tests,"PullRequestPart(sha=""60132a563a5d857ee62b2f945a8348e44b164f60"")","Chun-Sheng, Li",[],https://api.github.com/repos/amphp/sync/pulls/1,closed,"# Changed log
+
+- add more releated semaphore tests.",61,0,1,5,2018-03-11 21:53:45,2018-04-26 19:07:09,TRUE,2018-04-26 19:07:09,Niklas Keller,2,2018-04-26 19:07:13,TRUE,2018-03-18 15:45:49,Niklas Keller,2018-03-19 01:56:33,"Please write the permission as octal here, too (with a leading `0`).",7,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+21,sync,amphp,1,More semaphore tests,"PullRequestPart(sha=""60132a563a5d857ee62b2f945a8348e44b164f60"")","Chun-Sheng, Li",[],https://api.github.com/repos/amphp/sync/pulls/1,closed,"# Changed log
+
+- add more releated semaphore tests.",61,0,1,5,2018-03-11 21:53:45,2018-04-26 19:07:09,TRUE,2018-04-26 19:07:09,Niklas Keller,2,2018-04-26 19:07:13,TRUE,2018-03-18 15:46:13,Niklas Keller,2018-03-19 01:56:33,Please use `::class` instead of literal strings.,7,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+22,sync,amphp,2,Add docs/asset to export-ignore,"PullRequestPart(sha=""f75b43b7d19cad9e67bd7c151220c87a11af9c4f"")",Eugene Leonovich,[],https://api.github.com/repos/amphp/sync/pulls/2,closed,Same as https://github.com/amphp/byte-stream/issues/48 and https://github.com/amphp/parallel/pull/69.,1,0,1,1,2019-01-10 16:29:22,2019-01-10 17:14:44,TRUE,2019-01-10 17:14:44,Niklas Keller,0,2019-01-10 17:26:34,FALSE,2019-01-10 17:14:49,Niklas Keller,2019-01-10 17:14:49,"Thanks!
+",8,somewhat inclusive,inclusive,5,neutral,not constructive
+23,sync,amphp,4,"Add KeyedSemaphore, make Mutex extend Semaphore","PullRequestPart(sha=""4e25bd867cedffde7d71f918fee1c257aee40d80"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/4,closed,,180,6,0,4,2019-11-07 00:47:57,2019-11-08 18:42:57,TRUE,2019-11-08 18:42:57,Niklas Keller,4,2019-11-08 18:42:59,TRUE,2019-11-07 17:07:13,Niklas Keller,2019-11-07 22:01:33,"This is the wrong way, mutex should extend semaphore, as mutex is a special form of a semaphore with size one. ",6,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+24,sync,amphp,4,"Add KeyedSemaphore, make Mutex extend Semaphore","PullRequestPart(sha=""4e25bd867cedffde7d71f918fee1c257aee40d80"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/4,closed,,180,6,0,4,2019-11-07 00:47:57,2019-11-08 18:42:57,TRUE,2019-11-08 18:42:57,Niklas Keller,4,2019-11-08 18:42:59,TRUE,2019-11-07 17:19:00,Aaron Piotrowski,2019-11-07 22:01:33,"The separation here exists because a mutex indicates the lock should be exclusive, otherwise there would have been a single interface.",8,inclusive,inclusive,8,constructive,constructive
+25,sync,amphp,4,"Add KeyedSemaphore, make Mutex extend Semaphore","PullRequestPart(sha=""4e25bd867cedffde7d71f918fee1c257aee40d80"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/4,closed,,180,6,0,4,2019-11-07 00:47:57,2019-11-08 18:42:57,TRUE,2019-11-08 18:42:57,Niklas Keller,4,2019-11-08 18:42:59,TRUE,2019-11-07 19:01:45,Niklas Keller,2019-11-07 22:01:33,"Yes, noticed that I did it the wrong way. Mutex should extend semaphore. ",7,somewhat inclusive,inclusive,5,neutral,not constructive
+26,sync,amphp,4,"Add KeyedSemaphore, make Mutex extend Semaphore","PullRequestPart(sha=""4e25bd867cedffde7d71f918fee1c257aee40d80"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/4,closed,,180,6,0,4,2019-11-07 00:47:57,2019-11-08 18:42:57,TRUE,2019-11-08 18:42:57,Niklas Keller,4,2019-11-08 18:42:59,TRUE,2019-11-07 19:15:13,Aaron Piotrowski,2019-11-07 22:01:33,"Yes, Mutex extending Semaphore should be fine.",7,somewhat inclusive,inclusive,5,neutral,not constructive
+27,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-12 16:29:58,Niklas Keller,2020-03-13 05:19:43,Maybe `NativeSerializer`?,6,somewhat inclusive,inclusive,8,constructive,constructive
+28,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-12 16:30:51,Niklas Keller,2020-03-13 05:19:43,Maybe `allowed_classes` should be a constructor parameter?,6,somewhat inclusive,inclusive,8,constructive,constructive
+29,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-12 16:33:10,Niklas Keller,2020-03-13 05:19:43,I'm not sure whether it should extend `SyncException`.,7,somewhat inclusive,inclusive,5,neutral,not constructive
+30,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-12 17:56:48,Niklas Keller,2020-03-13 05:19:43,"I thought about `NoopSerializer` as name, but not sure whether that fits.",7,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+31,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-12 17:57:13,Niklas Keller,2020-03-13 05:19:43,Maybe `PassthroughSerializer`?,7,somewhat inclusive,inclusive,8,constructive,constructive
+32,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-17 18:40:53,Niklas Keller,2020-03-17 18:40:54,Should this be a lower-case `t`?,7,somewhat inclusive,inclusive,8,constructive,constructive
+33,sync,amphp,6,Add Serializer,"PullRequestPart(sha=""2e65f97e89c8e34c44bef24c1193cf170442a667"")",Aaron Piotrowski,[],https://api.github.com/repos/amphp/sync/pulls/6,closed,,314,0,0,8,2020-03-12 15:54:16,2020-03-19 13:45:11,FALSE,,,7,2020-03-19 13:45:11,TRUE,2020-03-17 18:43:07,Niklas Keller,2020-03-17 18:45:01,Should this be in `amphp/amp`?,7,somewhat inclusive,inclusive,8,constructive,constructive
+34,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,FALSE,2020-04-25 20:29:02,Sascha-Oliver Prolic,2020-04-25 20:29:02,"thanks @enumag, changes are applied",8,inclusive,inclusive,5,neutral,not constructive
+35,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,FALSE,2020-04-26 21:48:47,Sascha-Oliver Prolic,2020-04-26 21:48:47,all requested changes applied and rebased,8,inclusive,inclusive,5,neutral,not constructive
+36,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,FALSE,2020-05-06 15:56:26,Niklas Keller,2020-05-06 15:56:26,Thanks! I'll going to change the API a bit after merging now.,9,inclusive,inclusive,8,constructive,constructive
+37,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:17:58,Jáchym Toušek,2020-05-06 15:45:05,"In my opinion this should return void. If you need to check that the signal resolved the promise, you can call `getCurrentCount` right after.",9,inclusive,inclusive,9,constructive,constructive
+38,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:18:47,Jáchym Toušek,2020-05-06 15:45:05,"This package requires php 7.1, you can use void return type.",7,somewhat inclusive,inclusive,9,constructive,constructive
+39,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:19:57,Jáchym Toušek,2020-05-06 15:45:05,"```suggestion
+    public function reset(?int $signalCount = null)
+```",5,neutral,not inclusive,8,constructive,constructive
+40,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:23:50,Jáchym Toušek,2020-05-06 15:45:05,useless annotation,3,somewhat not inclusive,not inclusive,9,constructive,constructive
+41,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:24:14,Jáchym Toušek,2020-05-06 15:45:05,`: void` ?,5,neutral,not inclusive,8,constructive,constructive
+42,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:43:11,Jáchym Toušek,2020-05-06 15:45:05,"I don't see any point in resolving with true. The promise should be Promise\<void\> I think.
+```suggestion
+            $this->deferred->resolve();
+```",8,inclusive,inclusive,10,constructive,constructive
+43,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-25 20:44:53,Jáchym Toušek,2020-05-06 15:45:05,"I'm considering whether calling this should maybe fail the original promise if it wasn't resolved yet. Thoughts?
+
+Or I'd even consider dropping this method. I honestly don't see much use for it - personally I'd create a new instance anyway.",8,inclusive,inclusive,9,constructive,constructive
+44,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-26 04:37:11,Aaron Piotrowski,2020-05-06 15:45:05,You can use `AsyncTestCase` in this package to remove the need to call `Loop::run()` in tests.,8,inclusive,inclusive,10,constructive,constructive
+45,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-26 21:47:57,Sascha-Oliver Prolic,2020-05-06 15:45:05,"agree, removed",7,somewhat inclusive,inclusive,8,constructive,constructive
+46,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-26 21:48:11,Sascha-Oliver Prolic,2020-05-06 15:45:05,done,6,somewhat inclusive,inclusive,6,neutral,constructive
+47,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-26 21:48:21,Sascha-Oliver Prolic,2020-05-06 15:45:05,done,6,somewhat inclusive,inclusive,6,neutral,constructive
+48,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-27 06:01:41,Niklas Keller,2020-05-06 15:45:05,Should we name it getRemainingCount to make it even clearer that it counts down? ,9,inclusive,inclusive,9,constructive,constructive
+49,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-04-27 08:03:12,Sascha-Oliver Prolic,2020-05-06 15:45:05,done,6,somewhat inclusive,inclusive,6,neutral,constructive
+50,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-05-02 09:04:43,Niklas Keller,2020-05-06 15:45:05,`arrive` would be another possible name.,9,inclusive,inclusive,7,somewhat constructive,constructive
+51,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-05-02 09:05:38,Niklas Keller,2020-05-06 15:45:05,"This `if` can be removed due to the `if` below, no?",7,somewhat inclusive,inclusive,9,constructive,constructive
+52,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-05-02 09:06:04,Niklas Keller,2020-05-06 15:45:05,"```suggestion
+        if ($this->remainingCount === 0) {
+```",6,somewhat inclusive,inclusive,9,constructive,constructive
+53,sync,amphp,9,Add countdown barrier,"PullRequestPart(sha=""70cff619c42dc840621b78601e3341dc72b17303"")",Sascha-Oliver Prolic,[],https://api.github.com/repos/amphp/sync/pulls/9,closed,references https://github.com/amphp/amp/pull/246 and https://github.com/amphp/amp/issues/244,248,0,3,3,2020-04-25 20:13:31,2020-05-06 15:56:10,TRUE,2020-05-06 15:56:10,Niklas Keller,17,2020-05-06 19:10:42,TRUE,2020-05-02 09:09:30,Niklas Keller,2020-05-06 15:45:05,Should `signal` return the promise as well?,9,inclusive,inclusive,8,constructive,constructive
+54,sync,amphp,10,Move abstract tests,"PullRequestPart(sha=""96e31bb7c363c6c50d5ad4b8dab29d6aec4fc355"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/10,closed,Needed for https://github.com/amphp/file/pull/43,25,14,4,1,2020-05-01 04:42:03,2020-05-02 11:58:26,FALSE,,,0,2020-05-03 07:01:33,FALSE,2020-05-01 06:54:16,Jáchym Toušek,2020-05-01 06:54:16,Note: I'll also need a new release of amphp/sync after this is merged in order to continue my work in amphp/file.,8,inclusive,inclusive,8,constructive,constructive
+55,sync,amphp,10,Move abstract tests,"PullRequestPart(sha=""96e31bb7c363c6c50d5ad4b8dab29d6aec4fc355"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/10,closed,Needed for https://github.com/amphp/file/pull/43,25,14,4,1,2020-05-01 04:42:03,2020-05-02 11:58:26,FALSE,,,0,2020-05-03 07:01:33,FALSE,2020-05-01 20:43:57,Niklas Keller,2020-05-01 20:43:57,"I'm not a fan of making tests part of the public API, especially as PHPUnit releases many more major versions as we do in our packages.
+
+A work around is - - prefer-source combined with an autoload-dev rule. ",7,somewhat inclusive,inclusive,9,constructive,constructive
+56,sync,amphp,10,Move abstract tests,"PullRequestPart(sha=""96e31bb7c363c6c50d5ad4b8dab29d6aec4fc355"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/10,closed,Needed for https://github.com/amphp/file/pull/43,25,14,4,1,2020-05-01 04:42:03,2020-05-02 11:58:26,FALSE,,,0,2020-05-03 07:01:33,FALSE,2020-05-01 20:49:22,Jáchym Toušek,2020-05-01 20:49:22,I really dislike that workaround to be honest. 😅  But if that's what you guys prefer... @trowski ?,8,inclusive,inclusive,6,somewhat constructive,constructive
+57,sync,amphp,10,Move abstract tests,"PullRequestPart(sha=""96e31bb7c363c6c50d5ad4b8dab29d6aec4fc355"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/10,closed,Needed for https://github.com/amphp/file/pull/43,25,14,4,1,2020-05-01 04:42:03,2020-05-02 11:58:26,FALSE,,,0,2020-05-03 07:01:33,FALSE,2020-05-02 11:58:20,Jáchym Toušek,2020-05-02 11:58:20,The workaround was used instead so this is now obsolete. Closing.,8,inclusive,inclusive,9,constructive,constructive
+58,sync,amphp,11,Fix docblock type,"PullRequestPart(sha=""db5558d8da5aa527aaa0d8059cd6a82a65d36928"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/11,closed,I'd also like to mark the class as final and set release method as protected but that would be a BC break.,1,1,1,1,2020-05-02 08:58:17,2020-05-02 09:00:58,TRUE,2020-05-02 09:00:58,Niklas Keller,0,2020-05-02 09:01:09,FALSE,2020-05-02 09:01:09,Niklas Keller,2020-05-02 09:01:09,"Thanks! We can fix that in the next major, yes.",7,neutral,not inclusive,1,not constructive,not constructive
+59,sync,amphp,13,Improve docblock type,"PullRequestPart(sha=""0e153e033854a2496d2665e682a56d00071824bf"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/13,closed,,1,2,0,2,2020-05-02 09:44:21,2020-05-02 10:18:35,TRUE,2020-05-02 10:18:34,Niklas Keller,3,2020-05-02 10:18:35,TRUE,2020-05-02 09:47:11,Niklas Keller,2020-05-02 09:48:06,It gets nulled in `::release()`.,6,neutral,not inclusive,8,constructive,constructive
+60,sync,amphp,13,Improve docblock type,"PullRequestPart(sha=""0e153e033854a2496d2665e682a56d00071824bf"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/13,closed,,1,2,0,2,2020-05-02 09:44:21,2020-05-02 10:18:35,TRUE,2020-05-02 10:18:34,Niklas Keller,3,2020-05-02 10:18:35,TRUE,2020-05-02 09:48:01,Jáchym Toušek,2020-05-02 09:48:06,"```suggestion
+    /** @var callable|null The function to be called on release or null if the lock has been released. */
+```",6,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+61,sync,amphp,13,Improve docblock type,"PullRequestPart(sha=""0e153e033854a2496d2665e682a56d00071824bf"")",Jáchym Toušek,[],https://api.github.com/repos/amphp/sync/pulls/13,closed,,1,2,0,2,2020-05-02 09:44:21,2020-05-02 10:18:35,TRUE,2020-05-02 10:18:34,Niklas Keller,3,2020-05-02 10:18:35,TRUE,2020-05-02 09:48:22,Jáchym Toušek,2020-05-02 09:48:22,"Missed that, sorry.",7,somewhat inclusive,inclusive,5,neutral,not constructive
+62,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-03 17:17:03,Insolita,2020-05-03 17:24:20,"@kelunik this is good for my example task when we have a predefined set of urls, but what about a crawling task, when we will want add to queue additional urls from a response handler. Is it will be not overcomplicated if we will wrap links scraped from page to iterator and call processRequests() recursively? ",7,somewhat inclusive,inclusive,6,somewhat constructive,constructive
+63,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-03 17:34:32,Niklas Keller,2020-05-03 17:34:32,"@Insolita It shouldn't use recursion, no. You can use `Amp\Emitter` instead, the only thing you need to know is when to call `Emitter::complete()`. I've added an example, do you think that's fine?",6,somewhat inclusive,inclusive,8,somewhat constructive,constructive
+64,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-04 16:07:47,Aaron Piotrowski,2020-05-04 16:10:26,"@kelunik How about rolling this into a function returning an `Iterator`. Since an iterator can only be transversed once, holding it in an object doesn't really make sense IMO.
+
+```php
+function concurrentMap(Iterator $iterator, Semaphore $semaphore, callable $processor): Iterator
+{
+    return new Producer(function (callable $emit) use ($iterator, $semaphore, $processor): \Generator {
+        $pending = [];
+
+        while (yield $iterator->advance()) {
+            /** @var Lock $lock */
+            $lock = yield $semaphore->acquire();
+
+            $job = $iterator->getCurrent();
+
+            $promise = call(function () use ($lock, $job, $processor, $emit): \Generator {
+                try {
+                    yield $emit(call($processor, $job));
+                } finally {
+                    $lock->release();
+                }
+            });
+
+            $promiseId = \spl_object_id($promise);
+
+            $pending[$promiseId] = $promise;
+            $promise->onResolve(function () use (&$pending, $promiseId): void {
+                unset($pending[$promiseId]);
+            });
+        }
+
+        yield Promise\any($pending);
+    });
+}
+```",8,inclusive,inclusive,8,somewhat constructive,constructive
+65,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-04 17:01:36,Niklas Keller,2020-05-04 17:01:36,"@trowski Seems fine, too, but we still need the error handler, otherwise you can only react to the first failure.",6,somewhat inclusive,inclusive,6,somewhat constructive,constructive
+66,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-04 17:43:26,Aaron Piotrowski,2020-05-04 17:43:26,"> @trowski Seems fine, too, but we still need the error handler, otherwise you can only react to the first failure.
+
+I guess that depends. `Amp\Iterator\map()` fails the returned `Iterator` the first time the callback throws. So I'd say the same should happen here.",7,somewhat inclusive,inclusive,6,somewhat constructive,constructive
+67,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,FALSE,2020-05-05 18:09:35,Niklas Keller,2020-05-05 18:09:35,Got it working with correct GC behavior \o/,7,somewhat inclusive,inclusive,8,somewhat constructive,constructive
+68,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-03 17:17:24,Jáchym Toušek,2020-05-07 18:16:20,add newline?,5,neutral,inclusive,4,somewhat not constructive,not constructive
+69,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-03 17:35:36,Jáchym Toušek,2020-05-07 18:16:20,Perhaps use SplObjectStorage instead?,6,somewhat inclusive,inclusive,7,somewhat constructive,constructive
+70,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-04 17:19:15,Niklas Keller,2020-05-07 18:16:20,That'd create a circular reference. :-(,5,neutral,inclusive,7,somewhat constructive,constructive
+71,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-04 20:21:02,Jáchym Toušek,2020-05-07 18:16:20,Is this necessary? I'm not sure but I think the effect might be the same if you don't catch at all (just keep the finally),6,somewhat inclusive,inclusive,3,somewhat not constructive,not constructive
+72,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-04 20:22:53,Niklas Keller,2020-05-07 18:16:20,In that case `$error` is never set and it never fails?,7,somewhat inclusive,inclusive,5,neutral,constructive
+73,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-04 20:29:09,Jáchym Toušek,2020-05-07 18:16:20,"I meant remove the $error variable completely too... just try if the tests pass like that, if not then I missed something",6,somewhat inclusive,inclusive,2,somewhat not constructive,not constructive
+74,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-05 16:59:29,Niklas Keller,2020-05-07 18:16:20,"No, as `$promise` is never yielded or errors otherwise handled.",7,somewhat inclusive,inclusive,5,neutral,constructive
+75,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-06 14:34:20,Aaron Piotrowski,2020-05-07 18:16:20,"Consider adding `return` here. Couldn't hurt, right?
+
+EDIT: Realized you don't even need the `call` here, just simply `return Iterator\toArray(…)`.",6,somewhat inclusive,inclusive,5,neutral,constructive
+76,sync,amphp,15,Add concurrent iterator functions,"PullRequestPart(sha=""0eadd35c9cbce4b700e7b7b37c41364b2f37a544"")",Niklas Keller,[],https://api.github.com/repos/amphp/sync/pulls/15,closed,"This allows simplifying https://github.com/Insolita/php-async-benchmarks/pull/2.
+
+```php
+private function processRequests(Iterator $urls): Promise
+{
+    return call(function () use ($urls) {
+        $this->goodFile = yield File\open($this->tempDir . '/ok.txt', 'a');
+        $this->badFile = yield File\open($this->tempDir . '/bad.txt', 'a');
+
+        try {
+            yield Queue::fromIterator($urls)->process(new LocalSemaphore($this->concurrency),
+                function (string $url) {
+                    /** @var Response $response */
+                    $response = yield $this->client->request(new Request($url));
+                    yield $this->processHtml(yield $response->getBody()->buffer(), $url);
+                }, function (\Throwable $error, string $url) {
+                    yield $this->badFile->write($url . \PHP_EOL);
+                }
+            );
+        } finally {
+            yield $this->goodFile->close();
+            yield $this->badFile->close();
+        }
+    });
+}",657,25,6,26,2020-05-03 16:56:41,2020-05-07 18:55:03,TRUE,2020-05-07 18:55:03,Niklas Keller,9,2020-05-07 18:55:05,TRUE,2020-05-06 15:14:43,Niklas Keller,2020-05-07 18:16:20,"I need it, because the return value shouldn't always be an empty array, but rather `Promise<void>`",6,somewhat inclusive,inclusive,4,somewhat not constructive,not constructive
+77,sync,amphp,16,Fix typo,"PullRequestPart(sha=""47359e574f0256c4ed860cd03716c2238be24855"")",Anatoly Pashin,[],https://api.github.com/repos/amphp/sync/pulls/16,closed,,2,2,1,1,2020-07-22 00:49:02,2020-07-22 05:47:18,TRUE,2020-07-22 05:47:18,Niklas Keller,0,2020-07-22 06:03:19,FALSE,2020-07-22 05:47:31,Niklas Keller,2020-07-22 05:47:31,Thanks! ,5,neutral,inclusive,1,not constructive,not constructive
+78,sync,amphp,18,PHP 8 support,"PullRequestPart(sha=""07e0aed804e14234c6c5a6c6492ed2f4ebf3dcca"")",Daniil Gentili,[],https://api.github.com/repos/amphp/sync/pulls/18,closed,"On PHP 8, private __sleep methods issue a warning/exception.",3,2,2,2,2021-09-04 16:21:10,2021-09-14 06:36:16,TRUE,2021-09-14 06:36:16,Niklas Keller,0,2021-09-14 08:01:14,FALSE,2021-09-14 06:36:27,Niklas Keller,2021-09-14 06:36:27,Thanks! ,5,neutral,inclusive,1,not constructive,not constructive
+79,sync,amphp,18,PHP 8 support,"PullRequestPart(sha=""07e0aed804e14234c6c5a6c6492ed2f4ebf3dcca"")",Daniil Gentili,[],https://api.github.com/repos/amphp/sync/pulls/18,closed,"On PHP 8, private __sleep methods issue a warning/exception.",3,2,2,2,2021-09-04 16:21:10,2021-09-14 06:36:16,TRUE,2021-09-14 06:36:16,Niklas Keller,0,2021-09-14 08:01:14,FALSE,2021-09-14 08:01:14,Daniil Gentili,2021-09-14 08:01:14,"Yay!
+Can I haz tag? <3",6,somewhat inclusive,inclusive,2,somewhat not constructive,not constructive
